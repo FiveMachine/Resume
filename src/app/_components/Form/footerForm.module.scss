@@ -1,0 +1,28 @@
+.form {
+  input {
+    //border: 3px solid;
+  }
+  input:focus {
+    //transition: border-color 0.3s;
+    //border-color: red;
+    //outline: none;
+  }
+  .button {
+    border: 2px solid #fff;
+    border-radius: var(--radius-xl);
+    //max-width: 15rem;
+    justify-content: center;
+    background-color: rgba(55, 65, 81, 0.1); // bg-neutral-700/10
+    padding: 0.75rem; // p-3
+    line-height: 1; // leading-none
+    color: #fafafa; // text-neutral-700
+    transition:
+      background-color 0.2s ease,
+      color 0.2s ease; // transition
+
+    &:hover {
+      background-color: #a3a3a3; // hover:bg-neutral-700
+      color: #0f0f0f; // hover:text-white
+    }
+  }
+}
