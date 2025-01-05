@@ -5,8 +5,8 @@ import styles from './Button.module.scss'
 export const Button = () => {
   const handleDownLoad = () => {
     const link = document.createElement('a')
-    link.href = '/CV-Hardy-LINO-C.pdf'
-    link.download = 'CV-Hardy-LINO-C.pdf'
+    link.href = '/huevo-resume.pdf'
+    link.download = 'huevo-resume.pdf'
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
@@ -25,5 +25,5 @@ export const Button = () => {
   )
 }
 {
-  /**onClick={() => window.open('/cv-Hardy-LINO.pdf', '_blank')} */
+  /**onClick={() => window.open('/huevo-resume.pdf', '_blank')} */
 }

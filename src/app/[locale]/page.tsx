@@ -121,7 +121,7 @@ export default function Home() {
   const imageUrls = [
     '/images/Argent-bank/ab-6.webp',
     '/images/Argent-bank/ab-7.webp',
-    '/images/Kasa/ka-ph-2.webp',
+    '/images/Kasa/ka-pprofile.png',
     '/images/Kasa/kasa-1.webp',
     '/images/ohmyfood/oh-4.webp',
     '/images/ohmyfood/oh-3.webp',
@@ -263,18 +263,18 @@ export default function Home() {
                     </span>
                     <h1
                       className={cn(
-                        styles.hardy,
+                        styles.Huevo,
                         'w-min text-7xl font-extrabold drop-shadow-xl dark:text-neutral-50 md:w-max',
                       )}
                     >
                       <span className="sr-only">Huevo Aoki</span>
                       <span
                         aria-hidden="true"
-                        className={cn(styles.hardy__h, 'text-foreground')}
+                        className={cn(styles.Huevo__h, 'text-foreground')}
                       >
                         H
                       </span>
-                      ardy&nbsp;
+                      uevo&nbsp;
                     </h1>
                     <h2
                       className={cn(
@@ -332,7 +332,7 @@ export default function Home() {
                     {isDarkMode ? <ButtonRgb /> : <Button />}
 
                     <a
-                      href="/CV-Hardy-LINO-2.pdf"
+                      href="/huevo-resume.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                       className={cn(
@@ -364,7 +364,7 @@ export default function Home() {
                     <li className="transform transition duration-300 hover:scale-125">
                       <Link
                         aria-label="GitHub Profile"
-                        href="https://github.com/Hardy1210"
+                        href="https://github.com/FiveMachine"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -375,7 +375,7 @@ export default function Home() {
                     <li className="transform transition duration-300 hover:scale-125">
                       <Link
                         aria-label="LinkedIn Profile"
-                        href="https://www.linkedin.com/in/hardy-lino-4b5247297/"
+                        href="https://www.linkedin.com/in/huevo-1206/"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -633,7 +633,7 @@ export default function Home() {
                     <div className="flex justify-center md:justify-end ">
                       <div className="rounded-full">
                         <Image
-                          src="/images/Photos/h-2.webp"
+                          src="/images/Photos/profile.png"
                           alt="Robot hand light"
                           width={250}
                           height={250}
@@ -721,9 +721,9 @@ export default function Home() {
                           'Node.js',
                           'MongoDB',
                         ]}
-                        repoLink="https://github.com/Hardy1210/ArgentBank-website/tree/Redux"
+                        repoLink="https://github.com/FiveMachine/ArgentBank-website/tree/Redux"
                         repoIcon={<GithubIcon size={20} />}
-                        repoLinkWeb="https://hardy1210.github.io/ArgentBank-website/"
+                        repoLinkWeb="https://FiveMachine.github.io/ArgentBank-website/"
                         repoWebIcon={<WebIcon size={20} />}
                       />
                     </LazyLoadWrapper>
@@ -755,14 +755,14 @@ export default function Home() {
                         title="Kasa"
                         description={projectCardKasa('description')}
                         modalDescription={projectCardKasa('modalDescription')}
-                        modalImgSrc="/images/Kasa/ka-ph-2.webp"
+                        modalImgSrc="/images/Kasa/ka-pprofile.png"
                         modalImgAlt="Iphone Kasa"
                         modalImgSecondSrc="/images/Kasa/kasa-1.webp"
                         modalImgSecondAlt="MacBook Kasa"
                         technologies={['Vite', 'React', 'React router', 'Sass']}
-                        repoLink="https://github.com/Hardy1210/kasa"
+                        repoLink="https://github.com/FiveMachine/kasa"
                         repoIcon={<GithubIcon size={20} />}
-                        repoLinkWeb="https://hardy1210.github.io/kasa/"
+                        repoLinkWeb="https://FiveMachine.github.io/kasa/"
                         repoWebIcon={<WebIcon size={20} />}
                       />
                     </LazyLoadWrapper>
@@ -780,7 +780,7 @@ export default function Home() {
                         logoImgSrc={OhModalLogo}
                         layerImageSrc="/images/ohmyfood/ohmyfood-w.webp"
                         layerImageAlt="logo Ohmyfood"
-                        secondaryImageSrc="/images/ohmyfood/oh-2.webp"
+                        secondaryImageSrc="/images/ohmyfood/oprofile.png"
                         secondaryImageAlt="MacBook Ohmyfood"
                         headerImageSrc="/images/ohmyfood/oh-logo.webp"
                         headerImageAlt=""
@@ -799,9 +799,9 @@ export default function Home() {
                         modalImgSecondSrc="/images/ohmyfood/oh-3.webp"
                         modalImgSecondAlt=""
                         technologies={['Html', 'Css', 'Sass']}
-                        repoLink="https://github.com/Hardy1210/-OhMyFood"
+                        repoLink="https://github.com/FiveMachine/-OhMyFood"
                         repoIcon={<GithubIcon size={20} />}
-                        repoLinkWeb="https://hardy1210.github.io/-OhMyFood/"
+                        repoLinkWeb="https://FiveMachine.github.io/-OhMyFood/"
                         repoWebIcon={<WebIcon size={20} />}
                       />
                     </LazyLoadWrapper>
@@ -835,9 +835,9 @@ export default function Home() {
                         modalImgSecondSrc="/images/724/724-squo-4.webp"
                         modalImgSecondAlt="MacBook 724 Events"
                         technologies={['React', 'JavaScript', 'Node.js']}
-                        repoLink="https://github.com/Hardy1210/742-eventss"
+                        repoLink="https://github.com/FiveMachine/742-eventss"
                         repoIcon={<GithubIcon size={20} />}
-                        repoLinkWeb="https://hardy1210.github.io/742-eventss/"
+                        repoLinkWeb="https://FiveMachine.github.io/742-eventss/"
                         repoWebIcon={<WebIcon size={20} />}
                       />
                     </LazyLoadWrapper>
@@ -874,7 +874,7 @@ export default function Home() {
                               <WaveIcon key="wave" size={25} />,
                             ]}
                             title="Nina Carducci"
-                            description="Optimisation SEO d’un site de photographie, avec ajustement des dimensions des images et restructuration sémantique du code pour un meilleur référencement."
+                            description="SEO optimization of a photography site, with adjustment of image dimensions and semantic restructuring of the code for better referencing."
                             modalDescription="Optimisation SEO pour un site web de photographie. J'ai amélioré les performances du site en optimisant les images, en réduisant leur poids, en ajustant le format et les dimensions pour correspondre au viewport, garantissant ainsi un chargement plus rapide et une meilleure expérience utilisateur. La structure du code a été révisée pour une approche sémantique, facilitant le bon référencement par les moteurs de recherche. J'ai également réalisé un rapport d'optimisation pour comparer les performances avant et après les améliorations, en m'appuyant sur différents audits, tels que Lighthouse pour les performances et WAVE pour l’accessibilité."
                             modalImgSrc="/images/nina/nina-squo-2.webp"
                             modalImgAlt="MacBook avec le site Nina Carducci"
@@ -887,9 +887,9 @@ export default function Home() {
                               'Lighthouse',
                               'Wave',
                             ]}
-                            repoLink="https://github.com/Hardy1210/Nina-Carducci"
+                            repoLink="https://github.com/FiveMachine/Nina-Carducci"
                             repoIcon={<GithubIcon size={20} />}
-                            repoLinkWeb="https://hardy1210.github.io/Nina-Carducci/"
+                            repoLinkWeb="https://FiveMachine.github.io/Nina-Carducci/"
                             repoWebIcon={<WebIcon size={20} />}
                           />
                         </FadeInSection>
@@ -917,7 +917,7 @@ export default function Home() {
                               <SwaggerIcon key="swagger" size={25} />,
                             ]}
                             title="Sophie Bluel"
-                            description="Sophie Bluel est un site d'architecture intégrant un filtrage dynamique des photos et une interface d'administration pour gérer les projets."
+                            description="Sophie Bluel is an architecture site integrating dynamic photo filtering and an administration interface to manage projects."
                             modalDescription="Sophie Bluel est un site web d’architecture pour lequel j’ai intégré un système dynamique de filtrage des photos des projets réalisés par l'architecte. J’ai également développé une page de connexion avec un formulaire interactif, incluant des alertes qui s’affichent en cas d’erreur dans le mot de passe ou l’e-mail. Une page d’administration a été mise en place pour permettre l’ajout et la suppression de photos des travaux de l'architecte via un modal. Pour la communication avec le backend, j'ai utilisé Swagger afin de consulter et tester les endpoints disponibles, assurant ainsi une intégration fluide et fiable."
                             modalImgSrc="/images/sophie/soph-5.webp"
                             modalImgAlt="MacBook avec le site Sophie Bluel"
@@ -929,7 +929,7 @@ export default function Home() {
                               'Javascript',
                               'Swagger',
                             ]}
-                            repoLink="https://github.com/Hardy1210/Portfolio-architecte"
+                            repoLink="https://github.com/FiveMachine/Portfolio-architecte"
                             repoIcon={<GithubIcon size={20} />}
                             repoLinkWeb=""
                             repoWebIcon={<WebIcon size={20} />}
@@ -957,16 +957,16 @@ export default function Home() {
                               <CssIcon key="css" size={25} />,
                             ]}
                             title="Booki"
-                            description="Booki est l'un de mes premiers projets où j'ai intégré la page d'accueil d'un site de voyages."
+                            description="Booki is one of my first projects where I integrated the homepage of a travel website."
                             modalDescription="Booki est l'une de mes premières intégrations. Ma mission dans ce projet de ma formation était d'intégrer la page d'accueil de ce site web pour une agence de voyages. C'est ainsi que j'ai appris de manière plus approfondie le HTML et le CSS. La page d'accueil est responsive et s'adapte aux téléphones mobiles."
                             modalImgSrc="/images/booki/bo-4.webp"
                             modalImgAlt="Mackbook avec le site Booki"
                             modalImgSecondSrc="/images/booki/bo-3.webp"
                             modalImgSecondAlt="Mackbook avec le site Booki"
                             technologies={['Html', 'Css']}
-                            repoLink="https://github.com/Hardy1210/Booki"
+                            repoLink="https://github.com/FiveMachine/Booki"
                             repoIcon={<GithubIcon size={20} />}
-                            repoLinkWeb="https://hardy1210.github.io/Booki/"
+                            repoLinkWeb="https://FiveMachine.github.io/Booki/"
                             repoWebIcon={<WebIcon size={20} />}
                           />
                         </FadeInSection>
@@ -985,7 +985,7 @@ export default function Home() {
                       'text-foreground border-2 border-foreground',
                     )}
                   >
-                    Voir plus
+                    See more
                   </button>
                 </div>
               )}

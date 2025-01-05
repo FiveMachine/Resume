@@ -104,7 +104,7 @@ const StructuredData: React.FC = () => {
       addressCountry: 'FR',
     },
     sameAs: [
-      'https://www.linkedin.com/in/hardy-lino-4b5247297/',
+      'https://www.linkedin.com/in/huevo-1206/',
       // Puedes agregar otros perfiles si lo deseas
     ],
     openingHoursSpecification: [

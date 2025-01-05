@@ -54,7 +54,7 @@ export function NavbarComponent() {
                 satisfySans.className,
               )}
             >
-              Hardy L.
+              Huevo L.
             </Link>
           </div>
           <div

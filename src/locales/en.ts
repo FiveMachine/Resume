@@ -12,29 +12,29 @@ export default {
       hi: 'Hi !',
       myNameIs: 'My name is',
       name: '{name}',
-      dev: 'Front-end developer.',
+      dev: 'Senior Software Engineer.',
       welcome:
-        'Welcome to my portfolio, showcasing my experience and growth as a front-end developer.',
+        'Welcome to my portfolio, showcasing my experience and growth as a Senior Software Engineer.',
       read: 'Read.',
     },
     content: {
       about: 'About',
       aboutText:
-        'Store manager and former classical guitar teacher passionate about teaching, I transitioned into',
-      aboutText2: ' front-end development',
-      aboutText3: ', a field that has always fascinated me.',
-      aboutText4: 'My diverse background in',
-      aboutText5: ' management',
-      aboutText6: ' music',
+        'Seasoned Senior Software Engineer with a diverse skill set encompassing multiple programming languages,',
+      aboutText2: ' specialized frameworks',
+      aboutText3: ', and a strong proficiency in testing methodologies.',
+      aboutText4: 'Known for solving complex problems and delivering high-quality solutions. Demonstrated expertise in ',
+      aboutText5: ' Python',
+      aboutText6: ' Typescript',
       aboutText7: ' and',
-      aboutText8: ' teaching',
+      aboutText8: ' Golang',
       aboutText9:
-        ' has provided me with discipline, creativity, and problem-solving skills. This',
-      aboutText10: ' artistic',
-      aboutText11: ' experience enhances my technical vision and facilitates',
-      aboutText12: ' collaboration',
+        ' with a natural progression from web development to mastering each language. Well-versed in numerous frameworks, bringing added value through the integration of cutting-edge technologies. Seeking a challenging remote position to contribute advanced skills in',
+      aboutText10: ' React, Go and Python',
+      aboutText11: ' while leveraging extensive experience in testing and framework mastery.',
+      aboutText12: ' ',
       aboutText13:
-        ' on various projects. Curious and eager for new challenges, I am ready to put my passion at the service of your ideas.',
+        ' Curious and eager for new challenges, I am ready to put my passion at the service of your ideas.',
       //
       projects: 'Projects',
       projectsText:

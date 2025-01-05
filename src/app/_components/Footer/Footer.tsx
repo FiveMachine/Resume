@@ -51,7 +51,7 @@ export const Footer: React.FC<FooterProps> = ({
           </div>
           <div className="flex flex-row justify-center items-center gap-5 m-0">
             <Link
-              href="mailto:tu_correo@ejemplo.com"
+              href="mailto:devsf228@gmail.com"
               aria-label="Envoyer un e-mail"
             >
               <MailIcon
@@ -61,7 +61,7 @@ export const Footer: React.FC<FooterProps> = ({
             </Link>
             <Link
               aria-label="LinkedIn Profile"
-              href="https://www.linkedin.com/in/hardy-lino-4b5247297/"
+              href="https://www.linkedin.com/in/huevo-1206/"
               target="_blank"
               rel="noopener noreferrer"
               className="transform transition duration-200 hover:scale-125"
@@ -69,7 +69,7 @@ export const Footer: React.FC<FooterProps> = ({
               <LinkedInIcon size={25} />
             </Link>
             <Link
-              href="https://github.com/Hardy1210"
+              href="https://github.com/FiveMachine"
               target="_blank"
               rel="noopener noreferrer"
               className="transform transition duration-200 hover:scale-125"
